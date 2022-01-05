@@ -13,6 +13,7 @@ What this gripper demonstrator is supposed to "demonstrate" is that an array of 
 The demonstrator works as follows: It features a head which can be used to "grip" objects. This head consists of a compliant (~Shore 30) material whose shape can be changed. Inside the head is a sealed chamber, and when pressure in the chamber is reduced, it pulls the compliant material inside. The compliant material is deformed in such a way that it creates suction cups on the other side, which then create a suction force between the head and whatever object is being grabbed. Many cephalopods use a similar principle to attach their limbs to many different objects, and as such, this design was inspired by these animals.
 
 ![compliant_material.png](./images/compliant_material.png)
+_Compliant head of the suction gripper in action. On the right, the syringe is used to reduce the pressure in the suction head to create small suction cups._
 
 ## Printable components
 For the demonstrator model, some parts will have to be printed. This can be done out of PLA, and the printer does not have to be terribly fancy. The author used an Ender 3 Pro printer for all prints. The STL-files for the prints can be found in the `./STL/` folder.
@@ -68,7 +69,7 @@ Printing settings used by author:
 
 1. First print the parts, as this will take the most time. Gather all the other required tools in the meantime.
 
-### Post-processing the 3D printed parts**
+### Post-processing the 3D printed parts
 2. Remove the excess supports on the printed parts.
 3. Test the fit of the `suction_head_casing` and the `suction_head_gridcover`. Remove excess material from the outer edge and the six knobs of the `suction_head_gridcover`, and ensure that the six holes in the `suction_head_casing` are large enough. In the end, you should have a snug fit.
 4. Carefully remove the excess material from the outer tube gasket, so that it will not leak when a tube is attached to it.
@@ -87,14 +88,21 @@ _Filled mould just after casting. Note the air bubble escaping at the top._
 12. After the silicone has cured, break the glue connection between the funnel and the mould, either by twisting or cutting with a knife. Also cut through the layer of excess silicone.
 13. Remove the clamps/duct tape, and gently separate the mould halves. The silicone part should come loose relatively easily, although you may have to tug a bit harder near the edges.
 ![casting_result.jpg](./images/casting_result.jpg)
+_Cured silicone cast just after removing one of the mould halves. Note the "umbilical cord" of excess silicone at the top._
+
 14. Cut off the excess "umbilical cord" of silicone on the side of the cast. Be **very careful** however that you do not cut through the cast itself, as this will compromise the vacuum seal later on. Better safe than sorry.
 
 ### Assembling the suction head
+
 ![demonstrator_assembly.jpg](./images/demonstrator_assembly.jpg)
+
 15. Insert the `suction_head_gridcover` into the `suction_head_casing`. In the end, the gridcover should be flush with the casing.
 16. Apply a liberal amount of silicone kit to the outer edge of the casing, where the silicone part will touch the casing. Spread out the kit until it is distributed evenly. Slide the silicone part over the casing. Fix it in place with zip ties. Leave to cure for at least two hours.
+
 ![assembled_head.jpg](./images/assembled_head.jpg)
+
 17. Test the quality of the seal by connecting a small length of tubing to the fitting on the casing, and the other end to a syringe. Pull the plunger and see how quickly air rushes in again. If this is in the order of seconds, consider re-gluing the part. This is without a doubt the most frustrating part of the build, and the author ended up building two head parts before managing a good enough seal with the glue.
+
 ![sealtest.jpg](./images/sealtest.jpg)
 
 ### Assembling the prototype
