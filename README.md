@@ -98,9 +98,6 @@ _Cured silicone cast just after removing one of the mould halves. Note the "umbi
 
 15. Insert the `suction_head_gridcover` into the `suction_head_casing`. In the end, the gridcover should be flush with the casing.
 16. Apply a liberal amount of silicone kit to the outer edge of the casing, where the silicone part will touch the casing. Spread out the kit until it is distributed evenly. Slide the silicone part over the casing. Fix it in place with zip ties. Leave to cure for at least two hours.
-
-![assembled_head.jpg](./images/assembled_head.jpg)
-
 17. Test the quality of the seal by connecting a small length of tubing to the fitting on the casing, and the other end to a syringe. Pull the plunger and see how quickly air rushes in again. If this is in the order of seconds, consider re-gluing the part. This is without a doubt the most frustrating part of the build, and the author ended up building two head parts before managing a good enough seal with the glue.
 
 ![sealtest.jpg](./images/sealtest.jpg)
